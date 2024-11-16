@@ -1,0 +1,66 @@
+
+.babe_admin_edit_order_status{
+    display: block;
+    font-size: 12px;
+    padding: 2px;
+    border: 1px solid #dfdfdf;
+    color: #000;
+}
+
+.order_status_draft{
+    color: #888;
+}
+
+.order_status_av_confirmation{
+    border-color: cornflowerblue;
+    background-color: gainsboro;
+}
+
+.order_status_payment_expected{
+    border-color: darkorange;
+    background-color: khaki;
+}
+
+.order_status_not_available{
+    border-color: brown;
+    background-color: antiquewhite;
+}
+
+.order_status_payment_deferred, .order_status_payment_processing, .order_status_payment_received{
+    border-color: forestgreen;
+    background-color: aliceblue;
+}
+
+/* =================== */
+
+.wp-list-table .status.column-status{
+    vertical-align: middle;
+}
+
+.spin_f{
+    display: none;
+}
+
+.spin_f.active{
+    display: block;
+}
+
+.babe_payment_request{
+    margin-top: 8px;
+}
+
+.babe_payment_request .button.btn{
+    white-space: normal;
+    height: auto;
+    line-height: initial;
+    margin: 2px 0;
+}
+
+.babe_payment_request_input{
+    width: 54px;
+}
+
+.babe_payment_request_body{
+    margin: 5px 0;
+}
+

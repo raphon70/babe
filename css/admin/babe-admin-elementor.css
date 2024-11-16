@@ -1,0 +1,6 @@
+
+/* Elementor support */
+
+.elementor-control-ids .select2-container{
+    min-width: 200px;
+}

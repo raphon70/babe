@@ -1,0 +1,16 @@
+
+.cmb2-wrap .cmb-row{
+    background-color:#fff;
+    border-bottom: 1px dashed #aaa;
+}
+
+.cmb2-wrap .cmb-th, .cmb2-wrap .cmb-td{
+    padding: 5px;
+}
+
+.cmb-th label {
+    font-weight: 700;
+}
+
+
+

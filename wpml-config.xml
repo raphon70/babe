@@ -1,0 +1,52 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="0">coupon</custom-type>
+        <custom-type translate="0">order</custom-type>
+        <custom-type translate="1" display-as-translated="1">to_book</custom-type>
+        <custom-type translate="1" display-as-translated="1">faq</custom-type>
+        <custom-type translate="1" display-as-translated="1">service</custom-type>
+        <custom-type translate="1" display-as-translated="1">places</custom-type>
+        <custom-type translate="1" display-as-translated="1">fee</custom-type>
+    </custom-types>
+    <custom-fields>
+        <custom-field action="copy">start_date</custom-field>
+        <custom-field action="copy">end_date</custom-field>
+        <custom-field action="copy">cyclic_start_every</custom-field>
+        <custom-field action="copy">cyclic_av</custom-field>
+        <custom-field action="copy">excluded_dates</custom-field>
+        <custom-field action="copy">guests</custom-field>
+        <custom-field action="copy-once">categories</custom-field>
+        <custom-field action="copy-once">images</custom-field>
+        <custom-field action="copy-once">deposit_fixed</custom-field>
+        <custom-field action="copy-once">prices</custom-field>
+        <custom-field action="copy-once">discount</custom-field>
+        <custom-field action="copy-once">fees</custom-field>
+        <custom-field action="copy-once">custom_section</custom-field>
+    </custom-fields>
+    <taxonomies>
+        <taxonomy translate="1" display-as-translated="1">categories</taxonomy>
+        <taxonomy translate="1" display-as-translated="1">taxonomies_list</taxonomy>
+        <taxonomy translate="1" display-as-translated="1">ages</taxonomy>
+    </taxonomies>
+    <custom-term-fields>
+        <custom-term-field action="copy-once">categories_week</custom-term-field>
+        <custom-term-field action="copy-once">categories_booking_rule</custom-term-field>
+        <custom-term-field action="copy-once">categories_other_guests</custom-term-field>
+        <custom-term-field action="copy-once">categories_other_guests_mandatory</custom-term-field>
+        <custom-term-field action="copy-once">categories_remove_guests</custom-term-field>
+        <custom-term-field action="copy-once">categories_add_taxes</custom-term-field>
+        <custom-term-field action="copy-once">categories_tax</custom-term-field>
+        <custom-term-field action="copy-once">categories_tax_title</custom-term-field>
+        <custom-term-field action="copy-once">categories_services</custom-term-field>
+        <custom-term-field action="copy-once">categories_services_title</custom-term-field>
+        <custom-term-field action="copy-once">categories_faq</custom-term-field>
+        <custom-term-field action="copy-once">categories_faq_title</custom-term-field>
+        <custom-term-field action="copy-once">categories_taxonomies</custom-term-field>
+        <custom-term-field action="copy-once">categories_step_by_step</custom-term-field>
+        <custom-term-field action="copy-once">categories_step_title</custom-term-field>
+        <custom-term-field action="copy-once">categories_address</custom-term-field>
+        <custom-term-field action="copy-once">categories_gmap_active</custom-term-field>
+        <custom-term-field action="copy-once">categories_image</custom-term-field>
+        <custom-term-field action="copy-once">categories_file_list</custom-term-field>
+    </custom-term-fields>
+</wpml-config>

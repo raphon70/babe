@@ -1,0 +1,193 @@
+
+.babe-addons-browser{
+    margin-top: 2.5rem;
+}
+
+.babe-addon{
+    float: left;
+    margin: 0 4% 4% 0;
+    position: relative;
+    width: 30.6%;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px -1px rgba(0,0,0,.1);
+    box-sizing: border-box;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.babe-addon.payment-pack,
+.babe-addon.backoffice-pack{
+    width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px -1px rgba(0,0,0,.1);
+    box-sizing: border-box;
+    border-radius: 7px;
+    overflow: hidden;
+    float: none;
+    margin-bottom: 3em;
+
+}
+
+.babe-addon:nth-child(3n) {
+    margin-right: 0;
+}
+
+@media only screen and (max-width: 1120px){
+    
+ .babe-addon {
+    width: 47.5%;
+    margin-right: 0;
+ }
+   
+ .babe-addon:nth-child(odd) {
+    margin-right: 5%;
+ }
+
+}
+
+.babe-addon .babe-addon-screenshot a{
+    display: block;
+    line-height: 0;
+}
+
+.babe-addon .babe-addon-screenshot img{
+    height: auto;
+    width: 100%;
+}
+
+.babe-addon .babe-addon-screenshot img:hover{
+    opacity: 0.7;
+    -moz-opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.babe-addon .babe-addon-container{
+    margin: 0;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.babe-addon .babe-addon-container a{
+    text-decoration: none;
+}
+
+.babe-addon .babe-addon-container a:hover{
+    text-decoration: underline;
+}
+
+.babe-addon .babe-addon-name{
+    color: #0073aa;
+}
+
+.babe-addon .babe-addon-actions{
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.babe-addon .babe-addon-description{
+    line-height: 1.6em;
+    font-size: 14px;
+}
+
+/******************************/
+
+textarea{
+    width: 80%;
+    min-width: 300px;
+}
+
+.map_marker_block{
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.map_marker_block label{
+    display: block;
+}
+
+.form-table .map_marker_block input{
+    margin: 0;
+}
+
+._img_field_preview{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/*=========Settings tabs===========*/
+
+.babe-settings-wrap .nav-tab:focus{
+    box-shadow: none;
+}
+
+.babe-settings-wrap .nav-tab.nav-tab-active{
+    background-color: #fff;
+}
+
+.babe-settings-wrap .tab-target{
+    display: none;
+    position: relative;
+}
+
+.babe-settings-wrap .tab-target.tab-target-active{
+    display: flex;
+    justify-content: space-between;
+}
+
+.babe-settings-wrap #setting_section_emails input[type="text"]{
+    min-width: 270px;
+}
+
+.form-table .babe_settings_subtitle th{
+    font-size: 16px;
+    color: royalblue;
+}
+
+.babe-settings-wrap .babe-addons-info-container{
+    max-width: 370px;
+    min-width: 240px;
+    order: 2;
+    padding-top: 20px;
+    flex-basis: 33%;
+}
+
+@media only screen and (max-width: 791px){
+    .babe-settings-wrap .tab-target.tab-target-active{
+        display: block;
+    }
+}
+
+/*===================*/
+
+.spin_f{
+    display: none;
+}
+
+.spin_f.active{
+    display: inline-block;
+}
+
+.setup_result ul{
+    list-style: disc;
+    list-style-position: inside;
+    font-weight: 600;
+}
+
+.setup_result_title{
+    font-size: 14px;
+    line-height: 1.71428571;
+    font-weight: 600;
+    color: #555;
+}
+
+.edit-current-number:hover{
+    cursor: pointer;
+}
+
+.babe_setting_subtitle th, .babe_setting_subtitle td{
+    background-color: #dcdcde;
+    padding: 10px;
+    font-size: 16px;
+    color: dodgerblue;
+}

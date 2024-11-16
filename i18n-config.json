@@ -1,0 +1,51 @@
+{"vendor":{"plugins/ba-book-everything":"1.3.31"},
+"admin-config":{
+"wpcf7":{
+    "pages":{"admin.php":"page=wpcf7"},
+	"forms":{
+      "form-panel":{
+       "fields":{
+            "textarea-wpcf7-form":{"jquery":"textarea#wpcf7-form"}
+            }
+       }
+  }
+},
+"post":{
+	"pages":{"post.php":"", "post-new.php":"", "admin.php":"page=babe-settings"},
+	"anchors":{"post-body-content":{"where":"first last"}},
+	"forms":{
+      "postbox":{
+       "jquery":".postbox",
+       "fields":{
+            "postform":{"jquery":".postform option", "encode":"display"},
+            "cmb2_select":{"jquery":".cmb2_select option", "encode":"display"},
+            "cmb2-checkbox-list":{"jquery":".cmb2-checkbox-list label", "encode":"display"},
+            "text-translatable":{"jquery":".q_translatable input"}
+            }
+       },
+       "babe-options":{
+       "fields":{
+            "textarea-babe":{"jquery":"textarea"},
+            "text-babe":{"jquery":"input.q_translatable"}
+            }
+       }
+	}
+},
+"all_posts":{
+	"pages":{"edit.php":""},
+	"forms":{
+      "table":{
+       "jquery":"table.wp-list-table",
+       "fields":{
+            "td":{"jquery":"td", "encode":"display"}
+            }
+       },
+      "wpbody-content":{
+       "fields":{
+            "h1":{"jquery":"h1", "encode":"display"}
+            }
+       }
+	}
+}
+}
+}
